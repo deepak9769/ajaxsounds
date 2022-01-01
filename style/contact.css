@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+*{
+	font-family: 'Poppins', sans-serif;	
+}
+ .contactForm
+{
+	padding: 75px 50px ;
+	background: rgb(0, 0, 0) ;
+	color: white;
+	
+}
+ .contactForm h3
+{
+	color: #111 ;
+	font-size: 1.2em ;
+	margin-bottom: 20px ;
+	font-weight: 500 ;
+}
+ .contactForm .inputBox
+{
+	position: relative ; 
+	width: 100% ;
+	margin-bottom: 20px ;
+}
+ .contactForm .inputBox input,
+ .contactForm .inputBox textarea
+{
+	width: 100% ; 
+	border: 1px solid #555 ;
+	padding: 10px ;
+	color: #111 ;
+	outline: none ;
+	font-size: 16px ;
+	font-weight: 300 ;
+	resize: none ; 
+}
+ .contactForm .inputBox input[type="submit"]
+{
+	font-size: 1em ;
+	color: #fff ;
+	background: #1161ee ;
+	display: inline-block ;
+	text-transform: uppercase ;
+	text-decoration: none ;
+	letter-spacing: 2px ;
+	transition: 0.5s ;
+	max-width: 100px ;
+	font-weight: 500 ;
+	border: none ;
+	cursor: pointer ;
+}
+.contactForm .inputBox input[type="submit"]:hover
+{
+	background: #fffbfd;
+	color: black;
+}
+.contactForm .inputBox input[type="HOME"]
+{
+	text-align: center;
+	font-size: 1em ;
+	color: #fff ;
+	background: black ;
+	display: inline-block ;
+	text-transform: uppercase ;
+	text-decoration: none ;
+	letter-spacing: 2px ;
+	transition: 0.5s ;
+	max-width: 80px ;
+	font-weight: 500 ;
+	border: none ;
+	cursor: pointer ;
+}
+.contactForm .inputBox input[type="HOME"]:hover
+{
+	background: #fffbfd;
+	color: black;
+}
